@@ -2,7 +2,7 @@
 
 ## About
 
-A POSIX-compliant C-based airport traffic controller system supporting multiple concurrent requests for placing orders, calculating income, assigning waiters, and facilitating efficient management among admin, hotel manager, customers, and staff.
+A POSIX-compliant C-based multi-threaded air traffic control system supporting multiple concurrent requests and mutual exclusion using semaphores and mutexes for efficiently managing multiple airports, ensuring clash-free arrival, departure of cargo and passesnger planes and exclusively assigning runway to a plane based on the load capacity. Diagrammatic depiction of passenger plane processes:
 
 ![image](https://github.com/user-attachments/assets/15a90ee1-b77a-4739-b66e-4c075d4261be)
 
