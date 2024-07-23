@@ -3,6 +3,7 @@
 ## About
 
 A POSIX-compliant C-based airport traffic controller system supporting multiple concurrent requests for placing orders, calculating income, assigning waiters, and facilitating efficient management among admin, hotel manager, customers, and staff.
+![image](https://github.com/user-attachments/assets/15a90ee1-b77a-4739-b66e-4c075d4261be)
 
 ## Key Features
 <ul>
