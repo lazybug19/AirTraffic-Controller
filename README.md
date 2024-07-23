@@ -8,7 +8,7 @@ A POSIX-compliant C-based multi-threaded air traffic control system supporting m
 
 ## Key Features
 <ul>
-  <li> Can support 10+ concurrent table processes with 5+ customers in the system </li>
+  <li> Can support 10+ concurrent processes with 5+ customers in the system </li>
   <li> POSIX compliant IPC via pipes - named and ordinary </li>
   <li> Concurrent execution and assignment of tables to new customers </li>
   <li> Distinct table-waiter pairs and admin-hotelmanager communication via shared memory </li>
@@ -24,18 +24,18 @@ cd /path/to/the/root
 
 ### Compiling (GCC compiler) into executable files
 ```sh
-gcc -o table.out table.c
-gcc -o waiter.out waiter.c
-gcc -o admin.out admin.c
-gcc -o hotelmanager.out hotelmanager.c
+gcc -o airport.out airport.c
+gcc -o plane.out plane.c
+gcc -o cleanup.out cleanup.c
+gcc -o airtrafficcontroller.out airtrafficcontroller.c
 ```
 
 ### Running executable files
 ```sh
-table.out
-waiter.out
-admin.out
-hotelmanager.out
+airport.out
+plane.out
+cleanup.out
+airtrafficcontroller.out
 ```
 ## How to run?
 
