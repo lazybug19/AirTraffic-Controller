@@ -4,7 +4,7 @@
 
 A POSIX-compliant C-based multi-threaded air traffic control system supporting multiple concurrent requests, synchronisation and mutual exclusion using semaphores and mutexes for efficiently managing multiple airports, ensuring clash-free arrival, departure of cargo and passenger planes and assigning runways to planes based on their load capacity. Diagrammatic depiction of passenger plane processes:
 
-![image](https://github.com/user-attachments/assets/15a90ee1-b77a-4739-b66e-4c075d4261be)
+<img width="581" alt="stack" src="https://github.com/user-attachments/assets/15a90ee1-b77a-4739-b66e-4c075d4261be">
 
 ## Key Features
 - Multi-threading support : Each multi-threaded airport process creates a new thread that finds a runway the best-fit selection algorithm.
